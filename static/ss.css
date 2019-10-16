@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background: #ff7878;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+.navy {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+    background-color: #f04e4e;
+}
+
+.navy a {
+    text-decoration: none;
+    color: white;
+    padding: .5em 2em;
+    text-align: center;
+}
+
+.box a, .goto a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #d65757;
+    padding: .5em;
+    text-align: center;
+}
+
+.box {
+    border: 0.75px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box img {
+    height: 5em;
+    height: 5em;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

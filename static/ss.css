@@ -20,7 +20,24 @@ body {
     text-align: center;
 }
 
+.navy a:hover{
+    text-decoration: none;
+    color: white;
+    padding: .5em 2em;
+    text-align: center;
+    background-color: #d65757;
+}
+
 .box a, .goto a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #f04e4e;
+    padding: .5em;
+    text-align: center;
+}
+
+.box a:hover, .goto a {
     display: block;
     text-decoration: none;
     color: white;
@@ -43,4 +60,24 @@ body {
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+table {
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+}
+div {
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+    width: 50%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
 }

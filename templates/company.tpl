@@ -2,7 +2,7 @@
 {% block title %}Bensínstöðvar{% endblock %}
 {% block content %}
 <table>
-    <caption>Allar Bensínstöðvar fyrirtækisins</caption>
+    <h2>Allar Bensínstöðvar fyrirtækisins</h2>
     <tr>
         <th>Fyrirtæki</th><th>Staður</th>
     </tr>

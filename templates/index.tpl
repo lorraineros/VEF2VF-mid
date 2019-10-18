@@ -31,8 +31,6 @@
     {% else %}
         <h4>Díesel: {{ lowestPrices.1.diesel_discount }} krónur hjá {{ lowestPrices.1.company }}</h4>
     {% endif %}
-</div>
-<div>
     <p>Síðast uppfært: {{ gogn.timestampPriceCheck|format_time }}</p>
 </div>
 {% endblock %}

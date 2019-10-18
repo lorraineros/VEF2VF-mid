@@ -44,7 +44,7 @@ footer{
     display: block;
     text-decoration: none;
     color: white;
-    background-color: pink;
+    background: linear-gradient(to right,pink, crimson,pink);
     padding: .5em;
     text-align: center;
 }
@@ -53,7 +53,7 @@ footer{
     display: block;
     text-decoration: none;
     color: white;
-    background-color: #ff899c;
+    background: linear-gradient(to right,#ff9faf, #dd0833,#ff9faf);
     padding: .5em;
     text-align: center;
 }
